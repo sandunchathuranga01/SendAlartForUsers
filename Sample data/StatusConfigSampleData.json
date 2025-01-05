@@ -1,0 +1,42 @@
+[
+  {
+    "case_status": "A",
+    "before_dates": 5,
+    "temp_id": "TEMP01"
+  },
+  {
+    "case_status": "B",
+    "before_dates": 10,
+    "temp_id": "TEMP02"
+  },
+  {
+    "case_status": "C",
+    "before_dates": 12,
+    "temp_id": "TEMP03"
+  },
+  {
+    "case_status": "D",
+    "before_dates": 22,
+    "temp_id": "TEMP04"
+  },
+  {
+    "case_status": "E",
+    "before_dates": 34,
+    "temp_id": "TEMP05"
+  },
+  {
+    "case_status": "F",
+    "before_dates": 6,
+    "temp_id": "TEMP06"
+  },
+  {
+    "case_status": "G",
+    "before_dates": 3,
+    "temp_id": "TEMP07"
+  },
+  {
+    "case_status": "H",
+    "before_dates": 1,
+    "temp_id": "TEMP08"
+  }
+]

@@ -1,0 +1,112 @@
+{
+  "_id": {
+    "$oid": "67697ccf8c1587737ff90741"
+  },
+  "case_id": "CASE001",
+  "created_dtm": {
+    "$date": "2024-05-10T10:55:57.000Z"
+  },
+  "account_no": 46236533,
+  "customer_ref": "CR004241060",
+  "area": "GALLE",
+  "rtom": "GA",
+  "arrears_amount": 1000,
+  "action_type": "AT001",
+  "last_payment_dtm": {
+    "$date": "2024-05-10T10:55:57.000Z"
+  },
+  "days_count": 45,
+  "last_bss_reading_dtm": {
+    "$date": "2024-05-10T10:55:57.000Z"
+  },
+  "commission": null,
+  "case_current_status": "A",
+  "remark": "test",
+  "approve": [
+    {
+      "approve_process": "Pending Approval",
+      "approve_by": "Manager001",
+      "approve_on": {
+        "$date": "2024-05-10T10:55:57.000Z"
+      },
+      "remark": "Awaiting manager approval for payment extension"
+    }
+  ],
+  "contact": [
+    {
+      "mob": 752098793,
+      "email": "csandun104@gmail.com",
+      "lan": 752098793,
+      "address": "324 J A,Aluth Akkaraya,,,Uswetakeiyawa"
+    }
+  ],
+  "drc": [
+    {
+      "drc_id": "DRC001",
+      "drc_name": "A",
+      "order_id": 101,
+      "created_dtm": {
+        "$date": "2024-05-10T10:55:57.000Z"
+      },
+      "status": "Open",
+      "status_dtm": {
+        "$date": "2024-05-10T10:55:57.000Z"
+      },
+      "case_removal_remark": null,
+      "removed_by": null,
+      "removed_dtm": null,
+      "case_transfer_dtm": null,
+      "transferred_by": null
+    }
+  ],
+  "case_status": [
+    {
+      "Status_Type_ID": 1,
+      "create_dtm": {
+        "$date": "2024-05-10T10:55:57.000Z"
+      },
+      "status_reason": "Legal team decision",
+      "created_by": "Agent002",
+      "notified_dtm": {
+        "$date": "2024-10-05T00:00:00.000Z"
+      },
+      "expired_dtm": {
+        "$date": "2024-10-10T00:00:00.000Z"
+      }
+    },
+    {
+      "Status_Type_ID": 2,
+      "create_dtm": {
+        "$date": "2024-04-19T15:05:32.000Z"
+      },
+      "status_reason": "Legal team decision",
+      "created_by": "Agent003",
+      "notified_dtm": {
+        "$date": "2024-10-20T00:00:00.000Z"
+      },
+      "expired_dtm": {
+        "$date": "2024-10-26T00:00:00.000Z"
+      }
+    },
+    {
+      "Status_Type_ID": 3,
+      "create_dtm": {
+        "$date": "2024-04-27T18:01:13.000Z"
+      },
+      "status_reason": "Legal team decision",
+      "created_by": "Agent004",
+      "notified_dtm": null,
+      "expired_dtm": {
+        "$date": "2024-12-26T00:00:00.000Z"
+      }
+    }
+  ],
+  "settlement": [
+    {
+      "settlement_id": "SET001"
+    },
+    {
+      "settlement_id": "SET002"
+    }
+  ]
+}

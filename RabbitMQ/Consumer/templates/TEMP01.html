@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    .email-container {
+      max-width: 600px;
+      margin: 20px auto;
+      background: #ffffff;
+      border: 1px solid #dddddd;
+      border-radius: 8px;
+      padding: 20px;
+    }
+    .header {
+      background-color: #ffa500;
+      color: #ffffff;
+      text-align: center;
+      padding: 15px;
+      border-radius: 8px 8px 0 0;
+    }
+    .content {
+      margin: 20px 0;
+      color: #333333;
+    }
+    .footer {
+      font-size: 12px;
+      color: #666666;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="header">
+      <h2>Time Period Alert</h2>
+    </div>
+    <div class="content">
+      <p><strong>Case ID:</strong> {{CaseID}}</p>
+      <p><strong>Email:</strong> {{Email}}</p>
+      <p><strong>Created By:</strong> {{CreateBy}}</p>
+      <p>The time period for the specified case will be exited soon. Please take necessary action before the deadline.</p>
+    </div>
+    <div class="footer">
+      &copy; 2024 DRC. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>

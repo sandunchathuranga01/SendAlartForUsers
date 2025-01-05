@@ -1,0 +1,26 @@
+{
+  "settlement": [
+    {
+      "settlement_id": "SET001",
+      "case_id": "CASE001",
+      "settlement_created_dtm": "csandun104@gmail.com",
+      "settlement_status": "",
+      "settlement_type": "",
+      "settlement_amount": "",
+      "last_monitoring_dtm": "",
+      "installment": [
+        {
+          "installment_seq": "",
+          "settlement_amount": "",
+          "paid_date": "",
+          "paid_amount": ""
+
+        }
+
+      ]
+
+
+    },
+    {}
+  ]
+}
