@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 from datetime import datetime
 from Config.db_Config import get_db_details
-from RabbitMQ.Producer.ProducerCoreFunction.Email_Producer import send_message
+from RabbitMQ.Producer.ProducerCoreFunction.Email_Producer import send_message_rq
 
 # MongoDB connection details
 db_details = get_db_details()
@@ -91,7 +91,7 @@ def send_status_alerts():
             routing_key = 'Email' #email consumer routing key
 
             #send data to email producer
-            send_message(exchange, routing_key, case_id, temp_id)
+            send_message_rq(exchange, routing_key, case_id, temp_id)
 
             # Update notified_dtm after sending the message
             update_notified_dtm(case_id, status_type_id)
