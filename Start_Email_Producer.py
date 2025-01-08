@@ -7,7 +7,7 @@ def main():
     scheduler = BlockingScheduler()
 
     # Schedule the sendAlartToDrc function to run daily at 15:06
-    scheduler.add_job(sendAlartToDrc, 'cron', hour=10, minute=23)
+    scheduler.add_job(sendAlartToDrc, 'cron', hour=14, minute=24)
 
     print("Scheduler is running. Press Ctrl+C to exit.")
     try:

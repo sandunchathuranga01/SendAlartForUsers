@@ -1,7 +1,7 @@
 import pika
 import json
 
-def send_message_rq(exchange_name, routing_key, case_id, temp_id):
+def send_message(exchange_name, routing_key, case_id, temp_id):
     # Connect to RabbitMQ server
     connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
     channel = connection.channel()
@@ -18,12 +18,10 @@ def send_message_rq(exchange_name, routing_key, case_id, temp_id):
 
     # Close the connection
     connection.close()
-    
 
 if __name__ == "__main__":
     exchange = 'alert_exchange[DE]'
     routing_key = 'Email'
     case_id = "CASE001"
     temp_id = "TEMP01"
-    send_message_rq(exchange, routing_key, case_id, temp_id)
-
+    send_message(exchange, routing_key, case_id, temp_id)

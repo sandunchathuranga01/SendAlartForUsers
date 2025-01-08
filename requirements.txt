@@ -2,3 +2,5 @@ pika
 pymongo
 schedule
 apscheduler
+pandas
+numpy
