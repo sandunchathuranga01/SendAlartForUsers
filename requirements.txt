@@ -4,3 +4,4 @@ schedule
 apscheduler
 pandas
 numpy
+openpyxl
